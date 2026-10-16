@@ -7,7 +7,6 @@
 提交 · 幂等重试 · 自动轮询 · 结果解析 · 错误分类，几行代码拿到检测结果
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
-[![PyPI](https://img.shields.io/badge/PyPI-aigc--detect-3775C9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/aigc-detect/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 [官网与在线体验](https://sbnew.top) · [接口文档](https://sbnew.top/docs) · [获取 API Key](https://sbnew.top/console/keys)
@@ -26,7 +25,7 @@
 ## 安装
 
 ```bash
-pip install aigc-detect
+pip install git+https://github.com/sjzjia/zhuque-detect-api-python.git
 ```
 
 依赖 `requests>=2.25`，Python 3.8+。
@@ -130,7 +129,7 @@ except TaskTimeoutError as e:
 ## 本地开发
 
 ```bash
-git clone https://github.com/sjzjia/aigc-detect-api-python.git
+git clone https://github.com/sjzjia/zhuque-detect-api-python.git
 cd aigc-detect-api-python
 pip install -e .
 python -m unittest discover -s tests -v   # 单元测试，不访问真实服务
