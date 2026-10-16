@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aigc-detect"
+version = "0.1.0"
+description = "AIGC 检测 API（文本 / 图片 AI 生成内容检测）的 Python SDK：提交、幂等重试、自动轮询、结果解析与错误分类"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "sbnew.top" }]
+keywords = [
+    "aigc",
+    "ai-content-detection",
+    "ai-text-detection",
+    "ai-image-detection",
+    "朱雀",
+    "aigc-detection",
+    "api-client",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["requests>=2.25"]
+
+[project.urls]
+Homepage = "https://sbnew.top"
+Documentation = "https://sbnew.top/docs"
+Changelog = "https://github.com/sjzjia/aigc-detect-api-python/releases"
+
+[tool.setuptools.packages.find]
+include = ["aigc_detect*"]
