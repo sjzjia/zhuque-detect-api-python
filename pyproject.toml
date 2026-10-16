@@ -38,7 +38,7 @@ dependencies = ["requests>=2.25"]
 [project.urls]
 Homepage = "https://sbnew.top"
 Documentation = "https://sbnew.top/docs"
-Changelog = "https://github.com/sjzjia/aigc-detect-api-python/releases"
+Changelog = "https://github.com/sjzjia/zhuque-detect-api-python/releases"
 
 [tool.setuptools.packages.find]
 include = ["aigc_detect*"]
