@@ -130,7 +130,7 @@ except TaskTimeoutError as e:
 
 ```bash
 git clone https://github.com/sjzjia/zhuque-detect-api-python.git
-cd aigc-detect-api-python
+cd zhuque-detect-api-python
 pip install -e .
 python -m unittest discover -s tests -v   # 单元测试，不访问真实服务
 ```
