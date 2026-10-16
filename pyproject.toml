@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,8 @@ name = "aigc-detect"
 version = "0.1.0"
 description = "AIGC 检测 API（文本 / 图片 AI 生成内容检测）的 Python SDK：提交、幂等重试、自动轮询、结果解析与错误分类"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 authors = [{ name = "sbnew.top" }]
 keywords = [
